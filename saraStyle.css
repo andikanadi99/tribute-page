@@ -1,0 +1,85 @@
+/* Heading of page*/
+#heading {
+  text-align: center;
+  background-color: #008c45;
+  color: white;
+  font-family: Georgia, sans-serif;
+  letter-spacing: -2px;
+}
+
+/* Pictures of page*/
+img.face {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+  height: 400px;
+}
+img.flag1 {
+  position: relative;
+  top: -418px;
+  right: -2px;
+}
+img.flag2 {
+  position: relative;
+  top: -418px;
+  right: -850px;
+}
+
+/* Describes how tables should be written */
+table,
+th,
+td {
+  border: 1px solid black;
+}
+table.attributes {
+  margin-top: -350px;
+  width: 300px;
+}
+table.facts {
+  margin-top: -150px;
+  margin-left: auto;
+  overflow: hidden;
+}
+
+/*Sets background color*/
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #cd212a;
+  color: white;
+  text-align: center;
+  overflow: hidden;
+  height: 120px;
+}
+img.facebook {
+  display: block;
+  margin-left: auto;
+  width: 100px;
+  height: 100px;
+  position: relative;
+  margin-top: 50px;
+  margin-right: 464px;
+  overflow: hidden;
+}
+img.instagram {
+  display: block;
+  width: 100px;
+  height: 100px;
+  position: relative;
+  margin-bottom: -300px;
+  margin-left: 464px;
+  top: -100px;
+  overflow: hidden;
+}
+html:-webkit-scrollbar {
+  width: 0px;
+}
+html,
+body {
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
+}
